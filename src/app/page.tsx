@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { Card } from "@/components/card";
+import { GlassCircle } from "@/components/glass/circle/glass-circle";
+
 
 export default function Home() {
   return (
@@ -19,11 +21,9 @@ export default function Home() {
         <div className="flex flex-col justify-center mx-auto">
           <h1 className=" text-4xl font-bold">What We Bring To The Table</h1>
           <div className="flex w-full justify-center">
-            <Card className="w-2xs h-2xs">
-              <div className="w-full h-full ">
-                stuff
-              </div>
-            </Card>
+
+            <GlassCircle />
+
           </div>
         </div>
 
